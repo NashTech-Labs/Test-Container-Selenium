@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestContainer Selenium]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestContainer Test(failed)" verbose="0">
+    <classes>
+      <class name="SeleniumTests">
+        <methods>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- SeleniumTests -->
+    </classes>
+  </test> <!-- TestContainer Test(failed) -->
+</suite> <!-- Failed suite [TestContainer Selenium] -->
